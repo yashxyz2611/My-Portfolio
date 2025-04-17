@@ -41,7 +41,7 @@ nav {
     align-items: center;
     width: 55vw;
     height: 8vh;
-    margin:  auto;
+    margin: auto;
     margin-top: 25px;
     justify-content: center;
     border-radius: 40px;
@@ -241,17 +241,17 @@ h3 {
 .box.animate {
     opacity: 1;
     transform: scale(1); */
-    /* animation: animation2 0.5s ease forwards; */
-    /* animation: animation2 0.5s ease forwards; */
-    /* animation-fill-mode: both; */
-    /* 0% {
+/* animation: animation2 0.5s ease forwards; */
+/* animation: animation2 0.5s ease forwards; */
+/* animation-fill-mode: both; */
+/* 0% {
         transform: scale(0.8);
     } */
 
-    /* 100% {
+/* 100% {
         transform: scale(1);
     } */
-    /* animation: animation2 0.5s ease forwards;
+/* animation: animation2 0.5s ease forwards;
 } */
 
 
@@ -408,7 +408,9 @@ h3 {
     color: rgb(227, 227, 227);
     width: 100%;
     height: auto;
-    background-color: rgb(153, 154, 154);
+
+    background-color: rgb(188, 183, 183);
+
     animation: animation2 1s;
     /* border: 2px solid yellow; */
 }
@@ -529,8 +531,9 @@ h3 {
 .box2 :nth-child(3) img {
     width: 33px;
 }
-.name2 img{
-width: 60px;
+
+.name2 img {
+    width: 60px;
 }
 
 @media screen and (max-width: 768px) {
@@ -608,7 +611,7 @@ width: 60px;
     }
 
     .aboutMe h1 {
-        padding: 8px ;
+        padding: 8px;
         margin: 0px;
         font-size: 30px;
 
@@ -617,184 +620,223 @@ width: 60px;
     .aboutMe h2 {
         margin: 0px;
         font-size: 20px;
-padding: 5px;
+        padding: 5px;
     }
 
     .aboutMe p {
         padding: 5px;
-        margin: 0px ;
+        margin: 0px;
         font-size: 16px;
 
     }
-    .techstack h2{
+
+    .techstack h2 {
         font-size: 30px;
         margin: 0 auto;
     }
-        
-        .techstack h3{
-            font-size: 16px;
-            margin: 0 auto;
-            width: 380px;
+
+    .techstack h3 {
+        font-size: 16px;
+        margin: 0 auto;
+        width: 380px;
     }
-    .logo{
+
+    .logo {
         margin: 0 auto;
         width: 30vw;
     }
-    .contect{
+
+    .contect {
         flex-direction: column;
-align-items: center;       
+        align-items: center;
     }
-    .contect h1{
-        font-size: 30px ;
+
+    .contect h1 {
+        font-size: 30px;
         margin: 15px 0;
     }
-    .contect p{
+
+    .contect p {
         width: 60vw;
         padding: 10px;
-        font-size: 15px ;
+        font-size: 15px;
         margin-left: 0px;
     }
-    .name2{
+
+    .name2 {
         margin-top: 0;
     }
-    .name2 h2{
-font-size: 16px;
+
+    .name2 h2 {
+        font-size: 16px;
     }
-    .name2 h3{
-font-size: 12px;
-padding-bottom: 10px;
+
+    .name2 h3 {
+        font-size: 12px;
+        padding-bottom: 10px;
     }
-    .name2 img{
+
+    .name2 img {
         right: 12px;
         bottom: 12px;
         margin: 0;
         width: 30px;
     }
- .project h1{
-    font-size: 30px;
-    padding: 20px 30px;
-    margin: 0px;
- }
-    .grid{
-        width: 90vw;
-       /* grid-template-rows: 10px; */
+
+    .project h1 {
+        font-size: 30px;
+        padding: 20px 30px;
+        margin: 0px;
     }
-    .grid h2{
+
+    .grid {
+        width: 90vw;
+        /* grid-template-rows: 10px; */
+    }
+
+    .grid h2 {
         font-size: 20px;
     }
-    .grid p{
+
+    .grid p {
         font-size: 12px;
     }
-   .grid-box1{
-    margin: 10px ;
-    height: 160px;
 
-   }
-   .grid-box2{
-    margin: 10px ;
-    height: 160px;
+    .grid-box1 {
+        margin: 10px;
+        height: 160px;
 
-   }
-   .grid-box3{
-    margin: 10px ;
-    height: 160px;
+    }
 
-   }
-   .grid-box4{
-    margin: 10px ;
-    height: 160px;
+    .grid-box2 {
+        margin: 10px;
+        height: 160px;
 
-   }
-   .grid-box5{
-    margin: 10px ;
-    height: 160px;
+    }
 
-   }
-   
+    .grid-box3 {
+        margin: 10px;
+        height: 160px;
+
+    }
+
+    .grid-box4 {
+        margin: 10px;
+        height: 160px;
+
+    }
+
+    .grid-box5 {
+        margin: 10px;
+        height: 160px;
+
+    }
+
 }
 
 @media screen and (max-width: 550px) {
-    nav{
+    nav {
         width: 80vw;
         height: 4vh;
 
-        }
-        .nav{
-            height: 10vh;
-        }
-    .animation-po img{
+    }
+
+    .nav {
+        height: 10vh;
+    }
+
+    .animation-po img {
         width: 400px;
     }
-    .cantainar{
-    align-items: center;
-    justify-content: center;
-       flex-direction: column;
+
+    .cantainar {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    .name{
+
+    .name {
         font-size: 20px;
     }
-    .box1{
+
+    .box1 {
         margin: 0 auto;
     }
-    .box2{
+
+    .box2 {
         display: flex;
         flex-direction: row;
         margin-top: 50px;
     }
-    .aboutMe h2{
+
+    .aboutMe h2 {
         font-size: 12px;
         width: 220px;
     }
-    .cantainar{
+
+    .cantainar {
         height: auto;
         padding: 0px 0px 20px;
     }
-.aboutMe p{
-    font-size: 10px ;
-}
-.grid h2{
-    font-size: 15px;
-}
-.grid p{
-    font-size: 10px;
-}
-.grid{
-    padding: 20px;
-}
-.grid-box1{
-margin: 10px ;
-height: 100px;
 
-}
-.grid-box2{
-margin: 10px ;
-height: 100px;
+    .aboutMe p {
+        font-size: 10px;
+    }
 
-}
-.grid-box3{
-margin: 10px ;
-height: 100px;
+    .grid h2 {
+        font-size: 15px;
+    }
 
-}
-.grid-box4{
-margin: 10px ;
-height: 100px;
+    .grid p {
+        font-size: 10px;
+    }
 
-}
-.grid-box5{
-margin: 10px ;
-height: 100px;
+    .grid {
+        padding: 20px;
+    }
+
+    .grid-box1 {
+        margin: 10px;
+        height: 100px;
+
+    }
+
+    .grid-box2 {
+        margin: 10px;
+        height: 100px;
+
+    }
+
+    .grid-box3 {
+        margin: 10px;
+        height: 100px;
+
+    }
+
+    .grid-box4 {
+        margin: 10px;
+        height: 100px;
+
+    }
+
+    .grid-box5 {
+        margin: 10px;
+        height: 100px;
 
 
-}
-.project-links{
-    padding: 5px;
-}
-.project-body {
-    padding: 8px;
-}
-.name2{
-    align-items: center;
-    justify-content: center;
-}
+    }
+
+    .project-links {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .project-body {
+        padding: 8px;
+    }
+
+    .name2 {
+        align-items: center;
+        justify-content: center;
+    }
 }
