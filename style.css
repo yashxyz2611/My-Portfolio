@@ -407,7 +407,7 @@ h3 {
 .contect {
     color: rgb(227, 227, 227);
     width: 100%;
-    height: auto;
+    height: 70vh;
 
     background-color: rgb(188, 183, 183);
 
@@ -559,6 +559,7 @@ h3 {
 
     .logo {
         margin: 0px;
+        padding: 25px;
     }
 
     .logo img {
@@ -840,3 +841,32 @@ h3 {
         justify-content: center;
     }
 }
+@media screen and (max-width: 1370px){
+    .forme{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1315px){
+.forme{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .forme{
+        font-size: 14px;
+    }
+    .name{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1155px)   {
+    .name {
+        font-size:20px ;
+    }
+    .forme{
+        font-size: 12px;
+    }
+}
+
+
+
